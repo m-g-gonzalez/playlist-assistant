@@ -1,0 +1,8 @@
+import spotipy
+def playlist_appearance_frequency(SONGNAME_SOMEHOW):
+  num_of_times = 0
+  playlists = 
+  for playlist in playlists:
+    if SONGNAME_SOMEHOW in playlist:
+      num_of_times +=1
+  return (num_of_times/len(playlists))*100
